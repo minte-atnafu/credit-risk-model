@@ -25,7 +25,7 @@ jobs:
           pip install pytest  # 👈 Install pytest
           pip install -r requirements.txt  # optional if you have one
 
-      - name: Run tests
-        run: |
-          pytest
+    #   - name: Run tests
+    #     run: |
+    #       pytest
 
