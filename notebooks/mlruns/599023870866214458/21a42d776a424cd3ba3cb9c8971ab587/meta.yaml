@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/mintesinot/credit-risk-model/notebooks/mlruns/599023870866214458/21a42d776a424cd3ba3cb9c8971ab587/artifacts
+end_time: 1751466337384
+entry_point_name: ''
+experiment_id: '599023870866214458'
+lifecycle_stage: active
+run_id: 21a42d776a424cd3ba3cb9c8971ab587
+run_name: RandomForest_GridSearch
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751466014212
+status: 3
+tags: []
+user_id: mintesinot

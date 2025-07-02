@@ -1,0 +1,22 @@
+artifact_path: file:///c:/Users/mintesinot/credit-risk-model/notebooks/mlruns/599023870866214458/models/m-eef00163056a4348a2ee8df70fc1013d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+mlflow_version: 3.1.1
+model_id: m-eef00163056a4348a2ee8df70fc1013d
+model_size_bytes: 3202
+model_uuid: m-eef00163056a4348a2ee8df70fc1013d
+prompts: null
+run_id: 2628df0f5ee84791af54b97de9f9f87f
+utc_time_created: '2025-07-02 14:20:03.781458'

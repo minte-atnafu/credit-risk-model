@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/mintesinot/credit-risk-model/notebooks/mlruns/599023870866214458/models/m-30499e1f13dd4847aa4aab495ac2123a/artifacts
+creation_timestamp: 1751466324719
+experiment_id: '599023870866214458'
+last_updated_timestamp: 1751466337316
+model_id: m-30499e1f13dd4847aa4aab495ac2123a
+model_type: null
+name: RandomForest_model
+source_run_id: 21a42d776a424cd3ba3cb9c8971ab587
+status: 2
+status_message: null
