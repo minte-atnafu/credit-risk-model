@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/mintesinot/credit-risk-model/notebooks/mlruns/599023870866214458/models/m-eef00163056a4348a2ee8df70fc1013d/artifacts
+creation_timestamp: 1751466003568
+experiment_id: '599023870866214458'
+last_updated_timestamp: 1751466014177
+model_id: m-eef00163056a4348a2ee8df70fc1013d
+model_type: null
+name: LogisticRegression_model
+source_run_id: 2628df0f5ee84791af54b97de9f9f87f
+status: 2
+status_message: null
