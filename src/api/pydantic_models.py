@@ -1,0 +1,58 @@
+from pydantic import BaseModel
+
+class PredictionRequest(BaseModel):
+    num__Amount: float
+    num__Value: float
+    num__CountryCode: float
+    num__PricingStrategy: float
+    cat_impute__CurrencyCode_UGX: float
+    cat_impute__ProductCategory_airtime: float
+    cat_impute__ProductCategory_data_bundles: float
+    cat_impute__ProductCategory_financial_services: float
+    cat_impute__ProductCategory_movies: float
+    cat_impute__ProductCategory_other: float
+    cat_impute__ProductCategory_ticket: float
+    cat_impute__ProductCategory_transport: float
+    cat_impute__ProductCategory_tv: float
+    cat_impute__ProductCategory_utility_bill: float
+    cat_impute__ChannelId_ChannelId_1: float
+    cat_impute__ChannelId_ChannelId_2: float
+    cat_impute__ChannelId_ChannelId_3: float
+    cat_impute__ChannelId_ChannelId_5: float
+    cat_impute__ProviderId_ProviderId_1: float
+    cat_impute__ProviderId_ProviderId_2: float
+    cat_impute__ProviderId_ProviderId_3: float
+    cat_impute__ProviderId_ProviderId_4: float
+    cat_impute__ProviderId_ProviderId_5: float
+    cat_impute__ProviderId_ProviderId_6: float
+    cat_no_impute__ProductId_productid_1: float
+    cat_no_impute__ProductId_productid_10: float
+    cat_no_impute__ProductId_productid_11: float
+    cat_no_impute__ProductId_productid_12: float
+    cat_no_impute__ProductId_productid_13: float
+    cat_no_impute__ProductId_productid_14: float
+    cat_no_impute__ProductId_productid_15: float
+    cat_no_impute__ProductId_productid_16: float
+    cat_no_impute__ProductId_productid_19: float
+    cat_no_impute__ProductId_productid_2: float
+    cat_no_impute__ProductId_productid_20: float
+    cat_no_impute__ProductId_productid_21: float
+    cat_no_impute__ProductId_productid_22: float
+    cat_no_impute__ProductId_productid_23: float
+    cat_no_impute__ProductId_productid_24: float
+    cat_no_impute__ProductId_productid_27: float
+    cat_no_impute__ProductId_productid_3: float
+    cat_no_impute__ProductId_productid_4: float
+    cat_no_impute__ProductId_productid_5: float
+    cat_no_impute__ProductId_productid_6: float
+    cat_no_impute__ProductId_productid_7: float
+    cat_no_impute__ProductId_productid_8: float
+    cat_no_impute__ProductId_productid_9: float
+    remainder__TotalAmount: float
+    remainder__AvgAmount: float
+    remainder__TransactionCount: float
+    remainder__StdAmount: float
+
+class PredictionResponse(BaseModel):
+    is_high_risk: int
+    risk_probability: float
